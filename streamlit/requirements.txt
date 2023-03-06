@@ -1,3 +1,4 @@
+pip
 streamlit
 seaborn
 pandas
