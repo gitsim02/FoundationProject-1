@@ -62,7 +62,7 @@ with plots:
     plt.xlabel('Time Period', fontsize=10)
     plt.title('Price Distribution over 5 Years', fontsize = 12)
     plt.show()
-    st.pyplot(fig=plt, use_container_width=False)
+    st.pyplot(fig=plt)
     st.write("\n\n\n")
     st.markdown("""        """)
 
@@ -77,7 +77,7 @@ with plot2:
     plt.xlabel('Time Period', fontsize=10)
     plt.title('Price Distribution over 5 Years', fontsize=12)
     plt.show()
-    st.pyplot(fig=plt, use_container_width=False)
+    st.pyplot(fig=plt)
     st.write("\n\n\n")
 
 
@@ -144,7 +144,7 @@ with financedata:
     plt.xlabel('Time Period', fontsize=10)
     plt.title('Price Trend of Last 10 Days', fontsize=12)
     plt.show()
-    col2.pyplot(fig=plt, use_container_width=True)
+    col2.pyplot(fig=plt)
     st.write("Latest Price: ",latest_price)
 
 textinput = st.container()
